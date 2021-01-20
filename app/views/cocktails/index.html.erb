@@ -1,4 +1,8 @@
 <h1>Aca es la vista de index</h1>
+<%= cl_image_tag("mufhrcyess7em8khnhma", width: 400, height: 300, crop: :fill) %>
+
+<%= cl_image_tag("mufhrcyess7em8khnhma", width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
 <div class="container">
  <div class="cards">
   <% @cocktails.each do |c| %>
